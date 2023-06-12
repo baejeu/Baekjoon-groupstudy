@@ -13,6 +13,7 @@ public class Q11286 {
 
         //낮은 숫자가 우선 순위인 큐 선언
         //큐에 값을 담을 때 값을 비교해서 담는다
+        //람다식 -> 익명함수
         PriorityQueue<Integer> priorityQueueLowest = new PriorityQueue<>((num1, num2) -> {
             int abs1 = Math.abs(num1);
             int abs2 = Math.abs(num2);
